@@ -175,7 +175,7 @@ mod tests {
     fn again() {
         let mut game: Game = include_str!("world.ron").parse().unwrap();
 
-        game.ask("take it");
+    game.ask("take it");
         game.ask("again"); // make sure nothing funny happens
 
         let expected = "Center Room\nYou are in the center room.\nThere is a box here.";
