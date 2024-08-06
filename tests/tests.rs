@@ -159,7 +159,6 @@ mod tests {
             "You hit the goblin with your spear. It dies. It drops a dagger."
         );
         assert_eq!(game.ask("take dagger"), "Taken.");
-
         // hit self
         assert_eq!(
             game.ask("hit self with the spear"),
