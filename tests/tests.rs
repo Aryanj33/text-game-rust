@@ -170,7 +170,6 @@ mod tests {
             "You hit the self with your dagger."
         );
     }
-
     #[test]
     fn again() {
         let mut game: Game = include_str!("world.ron").parse().unwrap();
