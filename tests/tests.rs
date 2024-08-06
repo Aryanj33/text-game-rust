@@ -179,7 +179,7 @@ mod tests {
         game.ask("again"); // make sure nothing funny happens
 
         let expected = "Center Room\nYou are in the center room.\nThere is a box here.";
-        assert_eq!(game.ask("look"), expected);
+      assert_eq!(game.ask("look"), expected);
         assert_eq!(game.ask("again"), expected);
     }
 }
