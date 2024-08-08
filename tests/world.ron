@@ -51,3 +51,22 @@
         names: ["Arena"],
         desc: "You are in a circular arena with a dirt floor.",
     ),
+    "GOBLIN": (
+        names: ["goblin"],
+        locations: ["ARENA"],
+        hp: 3,
+        nature: Aggressive,
+    ),
+    "DAGGER": (
+        names: ["dagger"],
+        locations: ["GOBLIN"],
+        damage: 1,
+        can_take: true,
+    ),
+    "SPEAR": (
+        names: ["spear"],
+        locations: ["ARENA"],
+        can_take: true,
+        damage: 2,
+    ),
+})
